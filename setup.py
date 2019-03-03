@@ -4,16 +4,16 @@ except ImportError:
     from dsutils.core import setup
 
 config = {
-    'description': 'Exercise 46',
+    'description': 'Binance Fun',
     'author': 'Chandler Wyatt',
     'url': 'URL to get it at',
     'download_url': 'Where to download it',
     'author_email': 'quietbeats@gmail.com',
     'version': '0.1',
     'install_requires': ['nose'],
-    'packages': ['NAME'],
+    'packages': ['binance_fun'],
     'script': [],
-    'name': 'ex46'
+    'name': 'binance_fun'
 }
 
 setup(**config)
